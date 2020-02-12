@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>CYBERSPACE</title>
+    <script src="https://aframe.io/releases/1.0.3/aframe.min.js"></script>
+  </head>
+  <body>
+
+    <a-scene>
+
+      <a-sky src="images/space.jpg"></a-sky>
+
+      <a-entity id="ball"
+        geometry="primitive: sphere; radius: 0.54;"
+        material="src: images/earth.jpg"
+        position="-0.993 1.75 -2"></a-entity>
+
+      <a-entity id="box"
+        geometry="primitive: box;"
+        material="src: images/borg.jpg"
+        position="1.114 1.75 -2"></a-entity>
+
+    </a-scene>
+
+  </body>
+</html>
